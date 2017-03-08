@@ -11,9 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFView", "WPFView\WPFView.csproj", "{A37C88A9-4443-4634-AB9D-91F8A30A8A3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat_Server", "..\Chat_Server\Chat_Server\Chat_Server.csproj", "{490EBE9D-AE96-4B74-BE82-C60CCBBC523D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat_Server", "Chat_Server\Chat_Server.csproj", "{490EBE9D-AE96-4B74-BE82-C60CCBBC523D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "..\Chat_Server\Data\Data.csproj", "{098D9EF6-69DB-4A63-AF7B-CAC730F972BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{098D9EF6-69DB-4A63-AF7B-CAC730F972BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

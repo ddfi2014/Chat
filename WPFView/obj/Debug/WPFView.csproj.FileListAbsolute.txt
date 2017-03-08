@@ -16,3 +16,6 @@ C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\WPFView\obj\Debug\Ad
 C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\WPFView\obj\Debug\Login.g.cs
 C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\WPFView\obj\Debug\AddServer.baml
 C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\WPFView\obj\Debug\Login.baml
+D:\Repos\Chat\WPFView\bin\Debug\WPFView.exe.config
+D:\Repos\Chat\WPFView\obj\Debug\WPFView.exe
+D:\Repos\Chat\WPFView\obj\Debug\WPFView.pdb
