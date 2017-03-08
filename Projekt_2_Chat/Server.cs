@@ -8,12 +8,12 @@ namespace Projekt_2_Chat
 {
     public class Server
     {
+        Server srv = null;
 
         private Server()
         {
-
+            
         }
-
 
         //Benötigt die methoden 
 
@@ -24,7 +24,11 @@ namespace Projekt_2_Chat
 
         public Server getInstance()
         {
-            return this;
+            if (this.srv.Equals(null))
+            {
+                this.srv = new Server();
+            }
+            return this.srv;
         }
     }
 }
