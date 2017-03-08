@@ -1,0 +1,48 @@
+﻿<Window x:Class="WPFView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFView"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="435" Width="885">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="210*"/>
+            <ColumnDefinition Width="535*"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <ComboBox x:Name="comboBoxServer" HorizontalAlignment="Left" Margin="12,14,0,0" VerticalAlignment="Top" Width="250" Height="22" Grid.Column="1" SelectedIndex="0">
+            <ComboBoxItem Content="127.0.0.1" />
+        </ComboBox>
+        <ComboBox x:Name="comboBoxChatRoom" Grid.Column="1" HorizontalAlignment="Left" Margin="12,46,0,0" VerticalAlignment="Top" Width="250" SelectedIndex="0" Height="22">
+            <ComboBoxItem Content="None" />
+        </ComboBox>
+        <Button x:Name="buttonAddServer" Content="Add Server" HorizontalAlignment="Left" Margin="390,15,0,0" VerticalAlignment="Top" Width="75" Height="20" Grid.Column="1"/>
+        <Button x:Name="buttonConnect" Content="Connect" HorizontalAlignment="Left" Margin="470,15,0,0" VerticalAlignment="Top" Width="75" Height="20" Grid.Column="1"/>
+        <RichTextBox x:Name="richTextBoxChatWindow" IsReadOnly="True" HorizontalAlignment="Left" Height="260" Margin="12,74,0,0" VerticalAlignment="Top" Width="533" Grid.Column="1">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <RadioButton x:Name="radioButton" Content="Any" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top" Grid.Column="2" Height="15" Width="40"/>
+        <RadioButton x:Name="radioButton1" Content="Public only" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top" Grid.Column="2" Height="15" Width="80"/>
+        <RadioButton x:Name="radioButton2" Content="Private only" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" Grid.Column="2" Height="15" Width="84"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="320" Margin="10,14,0,0" VerticalAlignment="Top" Width="188" SelectionMode="Extended">
+            <ListBoxItem Content="Test 1"/>
+            <ListBoxItem Content="Test 2"/>
+            <ListBoxItem Content="Test 3"/>
+            <ListBoxItem Content="Test 4"/>
+            <ListBoxItem Content="Test 5"/>
+        </ListBox>
+        <Button x:Name="buttonMuteUsers" Content="Mute" HorizontalAlignment="Left" Margin="10,339,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+        <Button x:Name="buttonSendMessage" Content="Send" Grid.Column="1" HorizontalAlignment="Left" Margin="470,344,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+        <TextBox x:Name="textBoxMessage" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="12,355,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="453"/>
+        <Button x:Name="buttonAddChatRoom" Content="Add Chat Room" Grid.Column="1" HorizontalAlignment="Left" Margin="390,47,0,0" VerticalAlignment="Top" Width="155" Height="20"/>
+        <Button x:Name="buttonSendPrivateMessage" Content="Send Private" Grid.Column="1" HorizontalAlignment="Left" Margin="470,369,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+
+
+    </Grid>
+</Window>

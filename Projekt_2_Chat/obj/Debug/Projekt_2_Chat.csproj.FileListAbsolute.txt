@@ -1,0 +1,5 @@
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Projekt_2_Chat\obj\Debug\Projekt_2_Chat.csprojResolveAssemblyReference.cache
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Projekt_2_Chat\bin\Debug\Projekt_2_Chat.dll
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Projekt_2_Chat\bin\Debug\Projekt_2_Chat.pdb
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Projekt_2_Chat\obj\Debug\Projekt_2_Chat.dll
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Projekt_2_Chat\obj\Debug\Projekt_2_Chat.pdb

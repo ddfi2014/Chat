@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFView.AddChatRoom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFView"
+        mc:Ignorable="d"
+        Title="AddChatRoom" Height="190" Width="300" MinHeight="190" MinWidth="300">
+    <Grid>
+        <Label x:Name="labelChatRoomName" Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <Label x:Name="labelChatRoomPassword" Content="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,41,0,0"/>
+        <TextBox x:Name="textBoxChatRoomName" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Margin="162,14,10,0"/>
+        <PasswordBox x:Name="passwordBoxChatRoomPassword" Margin="162,45,10,0" VerticalAlignment="Top" Height="22"/>
+        <PasswordBox x:Name="passwordBoxChatRoomConfirmPassword" Margin="162,76,10,0" VerticalAlignment="Top" Height="22"/>
+        <Label x:Name="labelChatRoomConfirmPassword" Content="Confirm Password:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonCreateChatRoom" Content="Create Chat Room" Margin="10,0,10,7" Height="40" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>

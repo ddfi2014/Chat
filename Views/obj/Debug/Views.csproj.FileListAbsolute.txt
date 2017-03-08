@@ -1,0 +1,16 @@
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Views\bin\Debug\Views.dll
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Views\bin\Debug\Views.pdb
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Views\obj\Debug\Views.Private_chat.resources
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Views\obj\Debug\Views.Public_chat.resources
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Views\obj\Debug\Views.csproj.GenerateResource.Cache
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Views\obj\Debug\Views.dll
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Views\obj\Debug\Views.pdb
+c:\users\kampfmannjonas.bsz.003\documents\visual studio 2015\Projects\Projekt_2_Chat\Views\obj\Debug\Views.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\Views\bin\Debug\Views.dll
+C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\Views\bin\Debug\Views.pdb
+C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\Views\obj\Debug\Views.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\Views\obj\Debug\Views.Private_chat.resources
+C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\Views\obj\Debug\Views.Public_chat.resources
+C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\Views\obj\Debug\Views.csproj.GenerateResource.Cache
+C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\Views\obj\Debug\Views.dll
+C:\Users\David\Documents\Schule\Schulprojekt\Projekt_2_Chat\Views\obj\Debug\Views.pdb
