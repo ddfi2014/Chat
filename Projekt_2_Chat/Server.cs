@@ -17,12 +17,12 @@ namespace Projekt_2_Chat
 
         //Benötigt die methoden 
 
-        public void tellClients()
+        public void TellClients()
         {
             //Clients verständigen
         }
 
-        public Server getInstance()
+        public Server GetInstance()
         {
             if (this.srv.Equals(null))
             {

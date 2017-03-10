@@ -8,7 +8,7 @@ namespace Chat_Server
 {
     class Chat_Service : IChat
     {
-        public string[] machWas()
+        public string[] MachWas()
         {
             throw new NotImplementedException();
         }

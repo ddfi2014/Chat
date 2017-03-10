@@ -11,6 +11,6 @@ namespace Chat_Server
     public interface IChat
     {
         [OperationContract]
-        String[] machWas();
+        String[] MachWas();
     }
 }

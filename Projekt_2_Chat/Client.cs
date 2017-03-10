@@ -24,7 +24,7 @@ namespace Projekt_2_Chat
             //Fügt neue User in die Aktuell Online liste
         }
 
-        public void addMassage()
+        public void addMessage()
         {
             //fügt die Nachricht in die entsprechende liste 
         }
