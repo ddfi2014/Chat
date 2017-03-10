@@ -10,31 +10,31 @@ namespace Projekt_2_Chat
     {
         //der Server muss immer die daten an alle Client schicken sobald eine änderung geschieht (Broadcast)
 
-        public void openPrivateChat(Client client)
+        public void OpenPrivateChat(Client client)
         {
             //new Private_chat();  User muss mitgegeben werden
         }
-        public void muteUser()
+        public void MuteUser()
         {
              // fügt keine nachrichten von diesem User in deine Liste
         }
 
-        public void addUserToList()
+        public void AddUserToList()
         {
             //Fügt neue User in die Aktuell Online liste
         }
 
-        public void addMessage()
+        public void AddMessage()
         {
             //fügt die Nachricht in die entsprechende liste 
         }
 
-        public void login()
+        public void Login()
         {
             //prüfung der Daten
         }
 
-        public void logoff()
+        public void Logoff()
         {
             //Server, anwendung beenden entfernt sich selber aus der liste
         }
