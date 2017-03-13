@@ -46,6 +46,7 @@
     <Compile Include="ClientProxyController.cs" />
     <Compile Include="ServerController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -54,6 +55,10 @@
     <ProjectReference Include="..\ChatModell\ChatModell.csproj">
       <Project>{037d69db-3f51-471f-a2c6-a571cf44b1c3}</Project>
       <Name>ChatModell</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WPFView\WPFViewsClient.csproj">
+      <Project>{a37c88a9-4443-4634-ab9d-91f8a30a8a3e}</Project>
+      <Name>WPFViewsClient</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

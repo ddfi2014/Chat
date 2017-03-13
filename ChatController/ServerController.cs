@@ -16,7 +16,7 @@ namespace ChatController
         {
             //Chatraum erstellen
         }
-        public void TellClients()
+        public static void TellClients()
         {
             //Clients verständigen
         }

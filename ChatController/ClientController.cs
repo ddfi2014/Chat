@@ -4,12 +4,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ChatModell;
+using System.Windows.Input;
 
 namespace ChatController
 {
     class ClientController
     {
         List<ClientModell> UserListe;
+
+        private ICommand buttonSignup;
+        private ICommand buttonSignin;
+
+        public ICommand ButtonSignup
+        {
+            get { return buttonSignup; }
+            set { buttonSignup = value; }
+        }
+
+        public ICommand ButtonSignin
+        {
+            get { return buttonSignin; }
+            set { buttonSignin = value; }
+        }
+
+        public void ButtonManagement() {
+            buttonSignin = new UserCommand(new Action<object>(Login));
+            buttonSignup = new UserCommand(new Action<object>(Registrieren));
+        }
+
+        private void Registrieren(object obj)
+        {
+           //Verweis auf die neue Form
+        }
 
         //der Server muss immer die daten an alle Client schicken sobald eine änderung geschieht (Broadcast)
 
@@ -22,11 +48,11 @@ namespace ChatController
             // fügt keine nachrichten von diesem User in deine Liste
         }
 
-        public void AddUserToList()
+        public void AddUserToList(ClientModell client)
         {
             //Fügt neue User in die Aktuell Online liste
 
-            //UserListe.Add();
+            UserListe.Add(client);
         }
 
         public void AddMessage(String message)
@@ -35,18 +61,18 @@ namespace ChatController
             //richTextBoxChatWindow.Add(message);
         }
 
-        public void Login()
+        public void Login(Object obj)
         {
             //prüfung der Daten
-
-            //textBoxUserName
-            //passwordBox
+           
         }
 
-        public void Logoff()
+        public void Logoff(ClientModell client)
         {
             //Server, anwendung beenden entfernt sich selber aus der liste
 
+            UserListe.Remove(client);
+            ServerController.TellClients();
 
         }
 
