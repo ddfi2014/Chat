@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekt_2_Chat", "Projekt_2_Chat\Projekt_2_Chat.csproj", "{2C2E8770-F6A4-4494-9E5D-8A1038CEA55C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Projekt_2_Chat", "Projekt_2_Chat\_Projekt_2_Chat.csproj", "{2C2E8770-F6A4-4494-9E5D-8A1038CEA55C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{CC5E508C-C3B2-4A4B-889F-5BFC4C663B0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_ClassLibrary", "ClassLibrary\_ClassLibrary.csproj", "{CC5E508C-C3B2-4A4B-889F-5BFC4C663B0D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Chat_Server", "Chat_Server\_Chat_Server.csproj", "{490EBE9D-AE96-4B74-BE82-C60CCBBC523D}"
 EndProject

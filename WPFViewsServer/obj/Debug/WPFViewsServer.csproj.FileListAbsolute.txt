@@ -18,3 +18,6 @@ C:\Users\grimmjordan\Source\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.p
 D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\bin\Debug\WPFViewsServer.exe.config
 D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\obj\Debug\WPFViewsServer.exe
 D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
+D:\Kampfmann\Github\WPFViewsServer\bin\Debug\WPFViewsServer.exe.config
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.exe
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.pdb

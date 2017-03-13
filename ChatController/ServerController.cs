@@ -8,8 +8,13 @@ namespace ChatController
 {
     class ServerController
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
+        }*/
+
+        public void CreateRoom()
+        {
+            //Chatraum erstellen
         }
     }
 }
