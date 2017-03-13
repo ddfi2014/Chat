@@ -9,11 +9,11 @@ namespace ChatController
 {
     class ClientController
     {
-        List<User> UserListe;
+        List<ClientModell> UserListe;
 
         //der Server muss immer die daten an alle Client schicken sobald eine änderung geschieht (Broadcast)
 
-        public void OpenPrivateChat(Client client)
+        public void OpenPrivateChat(ClientModell client)
         {
             //new Private_chat();  User muss mitgegeben werden
         }

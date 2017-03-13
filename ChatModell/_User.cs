@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChatModell
 {
-    public class User
+    public class _User
     {
         String name;
         String passwort;
