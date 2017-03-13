@@ -8,8 +8,15 @@ namespace ChatModell
 {
     class ServerModell
     {
-        static void Main(string[] args)
+        ServerModell srv = null;
+
+        public ServerModell GetInstance()
         {
+            if (this.srv.Equals(null))
+            {
+                this.srv = new ServerModell();
+            }
+            return this.srv;
         }
     }
 }
