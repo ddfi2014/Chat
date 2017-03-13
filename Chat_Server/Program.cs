@@ -14,7 +14,7 @@ namespace Chat_Server
             using (ServiceHost sh = new ServiceHost(typeof(Chat_Service)))
             {
                 sh.Open();
-                Console.WriteLine("Service bereit....");
+                Console.WriteLine("Service bereit...");
                 Console.ReadLine();
             }
         }
