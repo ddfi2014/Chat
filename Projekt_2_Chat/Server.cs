@@ -47,6 +47,7 @@ namespace Projekt_2_Chat
         public void checkSpam()
         {
             //Wenn ein User viele Nachrichten in einer kurzen Zeit abschickt wird seine Nachrichtenfunktion für 30 Sekunden blockiert und er bekommt eine Mitteilung darüber.
+            //Oder der User muss ein Captcha lösen um zu beweisen das er kein Spammbot ist 
             DateTime start;
             TimeSpan time;
 
