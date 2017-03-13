@@ -12,3 +12,9 @@ D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.Properties.Resources.resou
 D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.csproj.GenerateResource.Cache
 D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.exe
 D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
+C:\Users\grimmjordan\Source\Repos\Chat\WPFViewsServer\bin\Debug\WPFViewsServer.exe.config
+C:\Users\grimmjordan\Source\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.exe
+C:\Users\grimmjordan\Source\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
+D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\bin\Debug\WPFViewsServer.exe.config
+D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\obj\Debug\WPFViewsServer.exe
+D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
