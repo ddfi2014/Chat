@@ -1,0 +1,4 @@
+D:\Kampfmann\Github\Data\bin\Debug\Data.dll
+D:\Kampfmann\Github\Data\bin\Debug\Data.pdb
+D:\Kampfmann\Github\Data\obj\Debug\Data.dll
+D:\Kampfmann\Github\Data\obj\Debug\Data.pdb

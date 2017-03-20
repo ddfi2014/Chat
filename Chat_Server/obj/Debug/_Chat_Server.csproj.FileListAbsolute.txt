@@ -1,0 +1,6 @@
+D:\Kampfmann\Github\Chat_Server\bin\Debug\Chat_Server.exe.config
+D:\Kampfmann\Github\Chat_Server\bin\Debug\Chat_Server.exe
+D:\Kampfmann\Github\Chat_Server\bin\Debug\Chat_Server.pdb
+D:\Kampfmann\Github\Chat_Server\obj\Debug\_Chat_Server.csprojResolveAssemblyReference.cache
+D:\Kampfmann\Github\Chat_Server\obj\Debug\Chat_Server.exe
+D:\Kampfmann\Github\Chat_Server\obj\Debug\Chat_Server.pdb

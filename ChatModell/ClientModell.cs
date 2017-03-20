@@ -8,9 +8,9 @@ namespace ChatModell
 {
     public class ClientModell
     {
-        String name;
-        String passwort;
-        int moderator;
+        private String name;
+        private String passwort;
+        private int moderator;
 
         public string Name
         {

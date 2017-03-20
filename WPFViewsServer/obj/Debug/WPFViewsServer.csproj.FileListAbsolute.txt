@@ -21,3 +21,14 @@ D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
 D:\Kampfmann\Github\WPFViewsServer\bin\Debug\WPFViewsServer.exe.config
 D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.exe
 D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
+D:\Kampfmann\Github\WPFViewsServer\bin\Debug\WPFViewsServer.exe
+D:\Kampfmann\Github\WPFViewsServer\bin\Debug\WPFViewsServer.pdb
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.csprojResolveAssemblyReference.cache
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\MainWindow.g.cs
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\App.g.cs
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer_MarkupCompile.cache
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer_MarkupCompile.lref
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\MainWindow.baml
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.g.resources
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.Properties.Resources.resources
+D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.csproj.GenerateResource.Cache

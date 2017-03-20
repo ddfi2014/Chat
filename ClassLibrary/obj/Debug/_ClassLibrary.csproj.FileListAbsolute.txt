@@ -1,0 +1,4 @@
+D:\Kampfmann\Github\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\Kampfmann\Github\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\Kampfmann\Github\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\Kampfmann\Github\ClassLibrary\obj\Debug\ClassLibrary.pdb

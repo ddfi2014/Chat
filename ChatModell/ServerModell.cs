@@ -8,7 +8,7 @@ namespace ChatModell
 {
     class ServerModell
     {
-        ServerModell srv = null;
+        private ServerModell srv = null;
 
         public ServerModell GetInstance()
         {
