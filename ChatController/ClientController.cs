@@ -14,7 +14,25 @@ namespace ChatController
 
         private ICommand buttonSignup;
         private ICommand buttonSignin;
+        private ICommand buttonSend;
+        private ICommand buttonSendprivate;
+        private ICommand buttonAddnewChatroom;
 
+        public ICommand ButtonAddnewChatroom
+        {
+            get { return buttonAddnewChatroom; }
+            set { buttonAddnewChatroom = value; }
+        }
+        public ICommand ButtonSend
+        {
+            get { return buttonSend; }
+            set { buttonSend = value; }
+        }
+        public ICommand ButtonSendprivate
+        {
+            get { return buttonSendprivate; }
+            set { buttonSendprivate = value; }
+        }
         public ICommand ButtonSignup
         {
             get { return buttonSignup; }
@@ -30,11 +48,19 @@ namespace ChatController
         public void ButtonManagement() {
             buttonSignin = new UserCommand(new Action<object>(Login));
             buttonSignup = new UserCommand(new Action<object>(Registrieren));
+            buttonSend = new UserCommand(new Action<object>(AddMessagepublic));
+            buttonSendprivate = new UserCommand(new Action<object>(AddMessageprivate));
+            buttonAddnewChatroom = new UserCommand(new Action<object>(addRoom));
+        }
+
+        private void addRoom(object obj)
+        {
+            //Neuen Raum erzeugen 
         }
 
         private void Registrieren(object obj)
         {
-           //Verweis auf die neue Form
+            //Verweis auf die neue Form Registrieren
         }
 
         //der Server muss immer die daten an alle Client schicken sobald eine änderung geschieht (Broadcast)
@@ -55,7 +81,12 @@ namespace ChatController
             UserListe.Add(client);
         }
 
-        public void AddMessage(String message)
+        public void AddMessageprivate(Object obj)
+        {
+            //fügt die Nachricht in die entsprechende liste
+            //richTextBoxChatWindow.Add(message);
+        }
+        public void AddMessagepublic(Object obj)
         {
             //fügt die Nachricht in die entsprechende liste
             //richTextBoxChatWindow.Add(message);
@@ -64,7 +95,7 @@ namespace ChatController
         public void Login(Object obj)
         {
             //prüfung der Daten
-           
+            
         }
 
         public void Logoff(ClientModell client)
