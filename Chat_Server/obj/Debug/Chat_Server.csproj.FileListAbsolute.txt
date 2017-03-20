@@ -10,3 +10,9 @@ D:\Kampfmann\Chat_Server\Chat_Server\obj\Debug\Chat_Server.pdb
 C:\Users\David\Documents\Schule\Schulprojekt\Chat_Server\Chat_Server\bin\Debug\Chat_Server.exe.config
 C:\Users\David\Documents\Schule\Schulprojekt\Chat_Server\Chat_Server\obj\Debug\Chat_Server.exe
 C:\Users\David\Documents\Schule\Schulprojekt\Chat_Server\Chat_Server\obj\Debug\Chat_Server.pdb
+D:\Kampfmann\Github\Chat_Server\bin\Debug\Chat_Server.exe.config
+D:\Kampfmann\Github\Chat_Server\obj\Debug\Chat_Server.exe
+D:\Kampfmann\Github\Chat_Server\obj\Debug\Chat_Server.pdb
+D:\Kampfmann\Github\Chat_Server\bin\Debug\Chat_Server.exe
+D:\Kampfmann\Github\Chat_Server\bin\Debug\Chat_Server.pdb
+D:\Kampfmann\Github\Chat_Server\obj\Debug\Chat_Server.csprojResolveAssemblyReference.cache

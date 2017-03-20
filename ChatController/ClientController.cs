@@ -104,8 +104,6 @@ namespace ChatController
 
             UserListe.Remove(client);
             ServerController.TellClients();
-
         }
-
     }
 }

@@ -13,9 +13,16 @@ namespace Chat_Server
         {
             using (ServiceHost sh = new ServiceHost(typeof(Chat_Service)))
             {
-                sh.Open();
-                Console.WriteLine("Service bereit...");
-                Console.ReadLine();
+                try
+                {
+                    sh.Open();
+                    Console.WriteLine("Service bereit...");
+                    Console.ReadLine();
+                }
+                catch(Exception e)
+                {
+                    Console.Error.Write("Server ist nicht richtig Konfiguriert");
+                }
             }
         }
     }
