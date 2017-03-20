@@ -23,7 +23,6 @@ D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.exe
 D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
 D:\Kampfmann\Github\WPFViewsServer\bin\Debug\WPFViewsServer.exe
 D:\Kampfmann\Github\WPFViewsServer\bin\Debug\WPFViewsServer.pdb
-D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer.csprojResolveAssemblyReference.cache
 D:\Kampfmann\Github\WPFViewsServer\obj\Debug\MainWindow.g.cs
 D:\Kampfmann\Github\WPFViewsServer\obj\Debug\App.g.cs
 D:\Kampfmann\Github\WPFViewsServer\obj\Debug\WPFViewsServer_MarkupCompile.cache

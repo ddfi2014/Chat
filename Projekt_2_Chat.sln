@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Projekt_2_Chat", "Projekt_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_ClassLibrary", "ClassLibrary\_ClassLibrary.csproj", "{CC5E508C-C3B2-4A4B-889F-5BFC4C663B0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Chat_Server", "Chat_Server\_Chat_Server.csproj", "{490EBE9D-AE96-4B74-BE82-C60CCBBC523D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat_Server", "Chat_Server\Chat_Server.csproj", "{490EBE9D-AE96-4B74-BE82-C60CCBBC523D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Data", "Data\_Data.csproj", "{098D9EF6-69DB-4A63-AF7B-CAC730F972BD}"
 EndProject
