@@ -1,0 +1,1 @@
+D:\Repos\Chat\ChatController\obj\Debug\ChatController.csprojResolveAssemblyReference.cache

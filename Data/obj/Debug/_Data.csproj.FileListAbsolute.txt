@@ -1,0 +1,4 @@
+D:\Repos\Chat\Data\bin\Debug\Data.dll
+D:\Repos\Chat\Data\bin\Debug\Data.pdb
+D:\Repos\Chat\Data\obj\Debug\Data.dll
+D:\Repos\Chat\Data\obj\Debug\Data.pdb

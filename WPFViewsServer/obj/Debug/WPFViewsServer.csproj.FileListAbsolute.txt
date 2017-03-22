@@ -1,20 +1,27 @@
-D:\Repos\Chat\WPFViewsServer\bin\Debug\WPFViewsServer.exe.config
-D:\Repos\Chat\WPFViewsServer\bin\Debug\WPFViewsServer.exe
-D:\Repos\Chat\WPFViewsServer\bin\Debug\WPFViewsServer.pdb
-D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.csprojResolveAssemblyReference.cache
-D:\Repos\Chat\WPFViewsServer\obj\Debug\MainWindow.g.cs
-D:\Repos\Chat\WPFViewsServer\obj\Debug\App.g.cs
-D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer_MarkupCompile.cache
-D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer_MarkupCompile.lref
-D:\Repos\Chat\WPFViewsServer\obj\Debug\MainWindow.baml
-D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.g.resources
-D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.Properties.Resources.resources
-D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.csproj.GenerateResource.Cache
-D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.exe
-D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
 C:\Users\grimmjordan\Source\Repos\Chat\WPFViewsServer\bin\Debug\WPFViewsServer.exe.config
 C:\Users\grimmjordan\Source\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.exe
 C:\Users\grimmjordan\Source\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
 D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\bin\Debug\WPFViewsServer.exe.config
 D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\obj\Debug\WPFViewsServer.exe
 D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
+D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.csprojResolveAssemblyReference.cache
+D:\Repos\Chat\WPFViewsServer\obj\Debug\MainWindow.g.cs
+D:\Repos\Chat\WPFViewsServer\obj\Debug\App.g.cs
+D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer_MarkupCompile.cache
+D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer_MarkupCompile.lref
+D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.exe
+D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.pdb
+D:\Repos\Chat\WPFViewsServer\bin\Debug\WPFViewsServer.exe.config
+D:\Repos\Chat\WPFViewsServer\bin\Debug\WPFViewsServer.exe
+D:\Repos\Chat\WPFViewsServer\bin\Debug\WPFViewsServer.pdb
+D:\Repos\Chat\WPFViewsServer\bin\Debug\ChatViewModel.dll
+D:\Repos\Chat\WPFViewsServer\bin\Debug\Projekt_2_Chat.dll
+D:\Repos\Chat\WPFViewsServer\bin\Debug\ChatModell.dll
+D:\Repos\Chat\WPFViewsServer\bin\Debug\ChatViewModel.pdb
+D:\Repos\Chat\WPFViewsServer\bin\Debug\Projekt_2_Chat.pdb
+D:\Repos\Chat\WPFViewsServer\bin\Debug\ChatModell.pdb
+D:\Repos\Chat\WPFViewsServer\bin\Debug\ChatModell.dll.config
+D:\Repos\Chat\WPFViewsServer\obj\Debug\MainWindow.baml
+D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.g.resources
+D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.Properties.Resources.resources
+D:\Repos\Chat\WPFViewsServer\obj\Debug\WPFViewsServer.csproj.GenerateResource.Cache

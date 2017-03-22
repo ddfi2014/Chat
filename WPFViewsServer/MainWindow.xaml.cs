@@ -12,17 +12,38 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ChatViewModel;
+using Projekt_2_Chat;
 
 namespace WPFViewsServer
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window, IServerView
     {
+        private ServerViewModel controller;
+
         public MainWindow()
         {
             InitializeComponent();
+            InitializeView();
+        }
+
+        public void InitializeView()
+        {
+            controller = ServerViewModel.GetController();
+            controller.AddView(this);
+        }
+
+        public void AddMessage(string message)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ChangeState(string command)
+        {
+            throw new NotImplementedException();
         }
     }
 }

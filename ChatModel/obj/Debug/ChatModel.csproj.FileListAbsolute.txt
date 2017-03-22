@@ -1,0 +1,16 @@
+D:\Repos\Chat\ChatModell\obj\Debug\ChatModel.csprojResolveAssemblyReference.cache
+D:\Repos\Chat\ChatModell\bin\Debug\ChatModell.dll.config
+D:\Repos\Chat\ChatModell\bin\Debug\ChatModell.dll
+D:\Repos\Chat\ChatModell\bin\Debug\ChatModell.pdb
+D:\Repos\Chat\ChatModell\bin\Debug\Projekt_2_Chat.dll
+D:\Repos\Chat\ChatModell\bin\Debug\Projekt_2_Chat.pdb
+D:\Repos\Chat\ChatModell\obj\Debug\ChatModell.dll
+D:\Repos\Chat\ChatModell\obj\Debug\ChatModell.pdb
+D:\Repos\Chat\ChatModel\bin\Debug\ChatModell.dll.config
+D:\Repos\Chat\ChatModel\bin\Debug\ChatModell.dll
+D:\Repos\Chat\ChatModel\bin\Debug\ChatModell.pdb
+D:\Repos\Chat\ChatModel\bin\Debug\Projekt_2_Chat.dll
+D:\Repos\Chat\ChatModel\bin\Debug\Projekt_2_Chat.pdb
+D:\Repos\Chat\ChatModel\obj\Debug\ChatModel.csprojResolveAssemblyReference.cache
+D:\Repos\Chat\ChatModel\obj\Debug\ChatModell.dll
+D:\Repos\Chat\ChatModel\obj\Debug\ChatModell.pdb

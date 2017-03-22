@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\obj\Debug\
+D:\Repos\Chat\WPFViewsServer\obj\Debug\
 WPFViewsServer
 none
 false
 DEBUG;TRACE
-D:\Kampfmann\Neuer Ordner (2)\WPFViewsServer\App.xaml
+D:\Repos\Chat\WPFViewsServer\App.xaml
 11151548125
 
-9253608129
-13738642453
+91447493150
+152021463070
 MainWindow.xaml;
 
-True
+False
 

@@ -1,0 +1,5 @@
+D:\Repos\Chat\Chat_Server\bin\Debug\Chat_Server.exe.config
+D:\Repos\Chat\Chat_Server\bin\Debug\Chat_Server.exe
+D:\Repos\Chat\Chat_Server\bin\Debug\Chat_Server.pdb
+D:\Repos\Chat\Chat_Server\obj\Debug\Chat_Server.exe
+D:\Repos\Chat\Chat_Server\obj\Debug\Chat_Server.pdb

@@ -1,0 +1,4 @@
+D:\Repos\Chat\ClassLibrary\bin\Debug\ClassLibrary.dll
+D:\Repos\Chat\ClassLibrary\bin\Debug\ClassLibrary.pdb
+D:\Repos\Chat\ClassLibrary\obj\Debug\ClassLibrary.dll
+D:\Repos\Chat\ClassLibrary\obj\Debug\ClassLibrary.pdb

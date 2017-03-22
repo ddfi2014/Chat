@@ -95,6 +95,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ChatViewModel\ChatViewModel.csproj">
+      <Project>{d5eecc3b-9281-43fb-b243-ed477d273fa7}</Project>
+      <Name>ChatViewModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Projekt_2_Chat\Projekt_2_Chat.csproj">
+      <Project>{2c2e8770-f6a4-4494-9e5d-8a1038cea55c}</Project>
+      <Name>Projekt_2_Chat</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

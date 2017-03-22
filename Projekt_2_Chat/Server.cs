@@ -31,7 +31,7 @@ namespace Projekt_2_Chat
             return this.srv;
         }
 
-        public void checkDos(String ip, long ms)
+        public void CheckDos(String ip, long ms)
         {
             //Vergleicht Zeiten der Anmeldeversuche einer gleichen IP-Adresse, bei zu vielen Versuchen in einem bestimmten Zeitintervall wird die IP-Adresse gebannt.
             DateTime start;
@@ -44,7 +44,7 @@ namespace Projekt_2_Chat
             time = DateTime.Now - start;
         }
 
-        public void checkSpam()
+        public void CheckSpam()
         {
             //Wenn ein User viele Nachrichten in einer kurzen Zeit abschickt wird seine Nachrichtenfunktion für 30 Sekunden blockiert und er bekommt eine Mitteilung darüber.
             //Oder der User muss ein Captcha lösen um zu beweisen das er kein Spammbot ist 
@@ -57,13 +57,14 @@ namespace Projekt_2_Chat
 
             time = DateTime.Now - start;
         }
-        public Boolean checkForBan()
+
+        public Boolean CheckForBan()
         {
             //bei jeder Anmeldung wird geprüft ob der User gebannt ist (banList)
             return false;
         }
 
-        public string getTimestamp()
+        public string GetTimestamp()
         {
             //zeitstempel für nachrichten
             String timeStamp = DateTime.Now.ToString("HH:mm:ss tt");
