@@ -49,6 +49,7 @@
     <Compile Include="IServerView.cs" />
     <Compile Include="ServerViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

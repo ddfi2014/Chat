@@ -31,6 +31,11 @@ namespace Projekt_2_Chat
             return this.srv;
         }
 
+        public void CreateRoom()
+        {
+            //Chatraum erstellen
+        }
+
         public void CheckDos(String ip, long ms)
         {
             //Vergleicht Zeiten der Anmeldeversuche einer gleichen IP-Adresse, bei zu vielen Versuchen in einem bestimmten Zeitintervall wird die IP-Adresse gebannt.

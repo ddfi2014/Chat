@@ -38,10 +38,10 @@
             <ListBoxItem Content="Test 5"/>
         </ListBox>
         <Button x:Name="buttonMuteUsers" Content="Mute" HorizontalAlignment="Left" Margin="10,339,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
-        <Button x:Name="buttonSendMessage" Content="Send" Grid.Column="1" HorizontalAlignment="Left" Margin="470,344,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+        <Button x:Name="buttonSendMessage" Content="Send" Grid.Column="1" HorizontalAlignment="Left" Margin="470,344,0,0" VerticalAlignment="Top" Width="75" Height="20" Command="{Binding ButtonSend}"/>
         <TextBox x:Name="textBoxMessage" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="12,355,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="453"/>
-        <Button x:Name="buttonAddChatRoom" Content="Add Chat Room" Grid.Column="1" HorizontalAlignment="Left" Margin="390,47,0,0" VerticalAlignment="Top" Width="155" Height="20"/>
-        <Button x:Name="buttonSendPrivateMessage" Content="Send Private" Grid.Column="1" HorizontalAlignment="Left" Margin="470,369,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+        <Button x:Name="buttonAddChatRoom" Content="Add Chat Room" Grid.Column="1" HorizontalAlignment="Left" Margin="390,47,0,0" VerticalAlignment="Top" Width="155" Height="20" Command="{Binding ButtonAddnewChatroom}"/>
+        <Button x:Name="buttonSendPrivateMessage" Content="Send Private" Grid.Column="1" HorizontalAlignment="Left" Margin="470,369,0,0" VerticalAlignment="Top" Width="75" Height="20" Command="{Binding ButtonSendprivate}" />
 
 
     </Grid>
