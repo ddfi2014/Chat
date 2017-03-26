@@ -4,6 +4,5 @@ D:\Kampfmann\Github\ClassLibrary\obj\Debug\ClassLibrary.dll
 D:\Kampfmann\Github\ClassLibrary\obj\Debug\ClassLibrary.pdb
 C:\Users\Jonas\Source\Repos\Chat\ClassLibrary\bin\Debug\ClassLibrary.dll
 C:\Users\Jonas\Source\Repos\Chat\ClassLibrary\bin\Debug\ClassLibrary.pdb
-C:\Users\Jonas\Source\Repos\Chat\ClassLibrary\obj\Debug\_ClassLibrary.csprojResolveAssemblyReference.cache
 C:\Users\Jonas\Source\Repos\Chat\ClassLibrary\obj\Debug\ClassLibrary.dll
 C:\Users\Jonas\Source\Repos\Chat\ClassLibrary\obj\Debug\ClassLibrary.pdb
