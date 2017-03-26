@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChatModell
 {
-    class Room
+    public class Room
     {
         private string name;
 

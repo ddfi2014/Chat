@@ -58,7 +58,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Projekt_2_Chat\Projekt_2_Chat.csproj">
+    <ProjectReference Include="..\Projekt_2_Chat\_Projekt_2_Chat.csproj">
       <Project>{2c2e8770-f6a4-4494-9e5d-8a1038cea55c}</Project>
       <Name>Projekt_2_Chat</Name>
     </ProjectReference>

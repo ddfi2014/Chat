@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChatModell
 {
-    class ClientModel
+    public class ClientModel
     {
         private string name = "";
 

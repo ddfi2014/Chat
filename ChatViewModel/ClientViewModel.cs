@@ -1,23 +1,43 @@
 ﻿using ChatModell;
+using WPFView;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using System.Windows.Forms;
 
 namespace ChatViewModel
 {
     class ClientViewModel
     {
-        List<ClientModell> UserListe;
+        List<ClientModel> UserListe;
 
         private ICommand buttonSignup;
         private ICommand buttonSignin;
         private ICommand buttonSend;
         private ICommand buttonSendprivate;
         private ICommand buttonAddnewChatroom;
+        private ICommand buttonaddnewServer;
+        private ICommand buttonCreatenewChatroom;
+        private ICommand buttonCreatenewServer;
 
+        public ICommand ButtonaddnewServer
+        {
+            get { return buttonaddnewServer; }
+            set { buttonaddnewServer = value; }
+        }
+        public ICommand ButtonCreatenewServer
+        {
+            get { return buttonCreatenewServer; }
+            set { buttonCreatenewServer = value; }
+        }
+        public ICommand ButtonCreatenewChatroom
+        {
+            get { return buttonCreatenewChatroom; }
+            set { buttonCreatenewChatroom = value; }
+        }
         public ICommand ButtonAddnewChatroom
         {
             get { return buttonAddnewChatroom; }
@@ -51,30 +71,56 @@ namespace ChatViewModel
             buttonSend = new UserCommand(new Action<object>(AddMessagepublic));
             buttonSendprivate = new UserCommand(new Action<object>(AddMessageprivate));
             buttonAddnewChatroom = new UserCommand(new Action<object>(addRoom));
+            buttonCreatenewChatroom = new UserCommand(new Action<object>(CreateRoom));
+            buttonaddnewServer = new UserCommand(new Action<object>(addServer));
+            buttonCreatenewServer = new UserCommand(new Action<object>(CreateNewServer));
+        }
+
+        private void addServer(object obj)
+        {
+            new WPFView.AddServer();
+        }
+
+        private void CreateNewServer(object obj)
+        {
+            //new Server(Eigenschaften)
         }
 
         private void addRoom(object obj)
         {
-            //Neuen Raum erzeugen 
+            new WPFView.AddChatRoom();
+
         }
+        private void CreateRoom(object obj)
+        {
+            Room raum = new Room("");  //(name,passwort); Werte aus den Textboxen
+            //combobox.add(raum)
+        }
+
 
         private void Registrieren(object obj)
         {
             //Verweis auf die neue Form Registrieren
+                        //if passwort = confirm passwort
+            //then 
+            new ClientModel("name","passwort");//Mitgabe der Textfelder (Name / Passwort)
+            //else
+            MessageBox.Show("Passwort stimmt nicht Überein");
         }
 
         //der Server muss immer die daten an alle Client schicken sobald eine änderung geschieht (Broadcast)
 
-        public void OpenPrivateChat(ClientModell client)
+        public void OpenPrivateChat(ClientModel client)
         {
             //new Private_chat();  User muss mitgegeben werden
         }
         public void MuteUser()
         {
             // fügt keine nachrichten von diesem User in deine Liste
+            // getSelectedUser() <- selektierten User nicht mehr schreiben lassen 
         }
 
-        public void AddUserToList(ClientModell client)
+        public void AddUserToList(ClientModel client)
         {
             //Fügt neue User in die Aktuell Online liste
 
@@ -95,15 +141,18 @@ namespace ChatViewModel
         public void Login(Object obj)
         {
             //prüfung der Daten
-            
+            //richtig
+
+            //falsch
+            MessageBox.Show("Passwort stimmt nicht Überein");
         }
 
-        public void Logoff(ClientModell client)
+        public void Logoff(ClientModel client)
         {
             //Server, anwendung beenden entfernt sich selber aus der liste
 
             UserListe.Remove(client);
-            ServerController.TellClients();
+            ServerViewModel.TellClients();
         }
     }
 }
