@@ -105,7 +105,7 @@ namespace ChatViewModel
             //then 
             new ClientModel("name","passwort");//Mitgabe der Textfelder (Name / Passwort)
             //else
-            MessageBox.Show("Passwort stimmt nicht Überein");
+            MessageBox.Show("Passwort stimmen nicht Überein");
         }
 
         //der Server muss immer die daten an alle Client schicken sobald eine änderung geschieht (Broadcast)
@@ -150,9 +150,13 @@ namespace ChatViewModel
         public void Logoff(ClientModel client)
         {
             //Server, anwendung beenden entfernt sich selber aus der liste
-
             UserListe.Remove(client);
             ServerViewModel.TellClients();
+            Application.Exit();
+        }
+        public void CreateRoom()
+        {
+            //Chatraum erstellen
         }
     }
 }

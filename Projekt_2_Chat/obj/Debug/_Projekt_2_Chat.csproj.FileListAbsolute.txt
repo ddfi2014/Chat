@@ -2,3 +2,7 @@ D:\Kampfmann\Github\Projekt_2_Chat\bin\Debug\Projekt_2_Chat.dll
 D:\Kampfmann\Github\Projekt_2_Chat\bin\Debug\Projekt_2_Chat.pdb
 D:\Kampfmann\Github\Projekt_2_Chat\obj\Debug\Projekt_2_Chat.dll
 D:\Kampfmann\Github\Projekt_2_Chat\obj\Debug\Projekt_2_Chat.pdb
+C:\Users\Jonas\Source\Repos\Chat\Projekt_2_Chat\bin\Debug\Projekt_2_Chat.dll
+C:\Users\Jonas\Source\Repos\Chat\Projekt_2_Chat\bin\Debug\Projekt_2_Chat.pdb
+C:\Users\Jonas\Source\Repos\Chat\Projekt_2_Chat\obj\Debug\Projekt_2_Chat.dll
+C:\Users\Jonas\Source\Repos\Chat\Projekt_2_Chat\obj\Debug\Projekt_2_Chat.pdb

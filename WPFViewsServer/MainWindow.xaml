@@ -7,9 +7,6 @@
         xmlns:vm="clr-namespace:ChatViewModel"
         mc:Ignorable="d"
         Title="Chat-Server" Height="435" Width="750" MinHeight="400" MinWidth="520">
-    <Window.Resources>
-        <vm:ViewModelMain x:Key="ViewModelMain" />
-    </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
