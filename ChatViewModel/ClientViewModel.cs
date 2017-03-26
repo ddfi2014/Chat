@@ -150,9 +150,13 @@ namespace ChatViewModel
         public void Logoff(ClientModel client)
         {
             //Server, anwendung beenden entfernt sich selber aus der liste
-
             UserListe.Remove(client);
             ServerViewModel.TellClients();
+            Application.Exit();
+        }
+        public void CreateRoom()
+        {
+            //Chatraum erstellen
         }
     }
 }

@@ -19,3 +19,6 @@ D:\Kampfmann\Github\Chat_Server\obj\Debug\Chat_Server.csprojResolveAssemblyRefer
 C:\Users\Jonas\Source\Repos\Chat\Chat_Server\bin\Debug\Chat_Server.exe.config
 C:\Users\Jonas\Source\Repos\Chat\Chat_Server\obj\Debug\Chat_Server.exe
 C:\Users\Jonas\Source\Repos\Chat\Chat_Server\obj\Debug\Chat_Server.pdb
+C:\Users\Jonas\Source\Repos\Chat\Chat_Server\bin\Debug\Chat_Server.exe
+C:\Users\Jonas\Source\Repos\Chat\Chat_Server\bin\Debug\Chat_Server.pdb
+C:\Users\Jonas\Source\Repos\Chat\Chat_Server\obj\Debug\Chat_Server.csprojResolveAssemblyReference.cache

@@ -14,9 +14,9 @@ namespace ChatModell
 
         private EUser userType;
 
-        public string Name { get => name; set => name = value; }
-        public int Age { get => age; set => age = value; }
-        public EUser UserType { get => userType; set => userType = value; }
+        public string Name { get { return name; } set { name = value; } }
+        public int Age { get { return age; } set { age = value; } }
+        public EUser UserType { get { return userType; } set { userType = value; } }
 
         public User(string name, int age)
         {
