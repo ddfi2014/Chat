@@ -9,11 +9,11 @@
     <Grid>
         <Label x:Name="labelChatRoomName" Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
         <Label x:Name="labelChatRoomPassword" Content="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,41,0,0"/>
-        <TextBox x:Name="textBoxChatRoomName" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Margin="162,14,10,0"/>
+        <TextBox x:Name="textBoxChatRoomName" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="162,14,10,0" Text="{ Binding ChatViewModel.ClientViewModel.Roomname}"/>
         <PasswordBox x:Name="passwordBoxChatRoomPassword" Margin="162,45,10,0" VerticalAlignment="Top" Height="22"/>
         <PasswordBox x:Name="passwordBoxChatRoomConfirmPassword" Margin="162,76,10,0" VerticalAlignment="Top" Height="22"/>
         <Label x:Name="labelChatRoomConfirmPassword" Content="Confirm Password:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="buttonCreateChatRoom" Content="Create Chat Room" Margin="10,0,10,7" Height="40" VerticalAlignment="Bottom"/>
+        <Button x:Name="buttonCreateChatRoom" Content="Create Chat Room" Margin="10,0,10,7" Height="40" VerticalAlignment="Bottom" Command="{Binding ButtonCreatenewChatroom}"/>
 
     </Grid>
 </Window>

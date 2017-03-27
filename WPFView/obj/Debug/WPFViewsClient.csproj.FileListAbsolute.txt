@@ -57,3 +57,6 @@ D:\Repos\Chat2\WPFView\obj\Debug\WPFView.Properties.Resources.resources
 D:\Repos\Chat2\WPFView\obj\Debug\WPFViewsClient.csproj.GenerateResource.Cache
 D:\Repos\Chat2\WPFView\obj\Debug\WPFView.exe
 D:\Repos\Chat2\WPFView\obj\Debug\WPFView.pdb
+D:\Kampfmann\Github\WPFView\bin\Debug\WPFView.exe.config
+D:\Kampfmann\Github\WPFView\obj\Debug\WPFView.exe
+D:\Kampfmann\Github\WPFView\obj\Debug\WPFView.pdb

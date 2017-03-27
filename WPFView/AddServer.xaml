@@ -10,13 +10,12 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="textBoxServerName" Height="23" Margin="114,10,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxServerName" Height="23" Margin="114,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="{Binding ChatViewModel.ServerViewModel.Server_Name}"/>
         <Label x:Name="labelServerName" Content="Server Name:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="80"/>
         <Label x:Name="labelServerIP" Content="Server IP-Adress:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBoxServerIP" Height="23" Margin="114,41,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxServerIP" Height="23" Margin="114,41,10,0" TextWrapping="Wrap"  VerticalAlignment="Top" Text="{Binding ChatViewModel.ServerViewModel.Server_IP}"/>
         <Label x:Name="labelServerPort" Content="Server Port:" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox" Height="23" Margin="114,71,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-        <Button x:Name="buttonTestAndAdd" Content="Test and Add Server" Margin="10,0,10,10" Height="40" VerticalAlignment="Bottom"/>
-
+        <TextBox x:Name="textBox" Height="23" Margin="114,71,10,0" TextWrapping="Wrap"  VerticalAlignment="Top" Text="{Binding ChatViewModel.ServerViewModel.Server_Port}"/>
+        <Button x:Name="buttonTestAndAdd" Content="Test and Add Server" Margin="10,0,10,10" Height="40" VerticalAlignment="Bottom" Command="{Binding ButtonCreatenewServer}"/>
     </Grid>
 </Window>

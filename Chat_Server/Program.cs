@@ -21,7 +21,7 @@ namespace Chat_Server
                 }
                 catch(Exception e)
                 {
-                    Console.Error.Write("Server ist nicht richtig Konfiguriert");
+                    Console.Error.Write("Server wurde nicht richtig Konfiguriert");
                 }
             }
         }

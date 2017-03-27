@@ -14,6 +14,10 @@ namespace ChatViewModel
     {
         List<ClientModel> UserListe;
 
+        private String roomname;
+        private String passwortconfirm;
+        private String passwort;
+        private String username;
         private ICommand buttonSignup;
         private ICommand buttonSignin;
         private ICommand buttonSend;
@@ -22,7 +26,6 @@ namespace ChatViewModel
         private ICommand buttonaddnewServer;
         private ICommand buttonCreatenewChatroom;
         private ICommand buttonCreatenewServer;
-
         public ICommand ButtonaddnewServer
         {
             get { return buttonaddnewServer; }
@@ -65,6 +68,58 @@ namespace ChatViewModel
             set { buttonSignin = value; }
         }
 
+        public string Username
+        {
+            get
+            {
+                return username;
+            }
+
+            set
+            {
+                username = value;
+            }
+        }
+
+        public string Passwort
+        {
+            get
+            {
+                return passwort;
+            }
+
+            set
+            {
+                passwort = value;
+            }
+        }
+
+        public string Passwortconfirm
+        {
+            get
+            {
+                return passwortconfirm;
+            }
+
+            set
+            {
+                passwortconfirm = value;
+            }
+        }
+
+        public string Roomname
+        {
+            get
+            {
+                return roomname;
+            }
+
+            set
+            {
+                roomname = value;
+            }
+        }
+
         public void ButtonManagement() {
             buttonSignin = new UserCommand(new Action<object>(Login));
             buttonSignup = new UserCommand(new Action<object>(Registrieren));
@@ -99,16 +154,15 @@ namespace ChatViewModel
 
 
         private void Registrieren(object obj)
-        {
-            //Verweis auf die neue Form Registrieren
-                        //if passwort = confirm passwort
-            //then 
-            new ClientModel("name","passwort");//Mitgabe der Textfelder (Name / Passwort)
-            //else
+        { 
+            if (Passwort.Equals(Passwortconfirm))
+            {
+                new ClientModel(Username, Passwort);
+            }
             MessageBox.Show("Passwort stimmen nicht Überein");
         }
 
-        //der Server muss immer die daten an alle Client schicken sobald eine änderung geschieht (Broadcast)
+        //der Server muss immer die Daten an alle Client schicken sobald eine Änderung geschieht (Broadcast)
 
         public void OpenPrivateChat(ClientModel client)
         {
@@ -129,22 +183,20 @@ namespace ChatViewModel
 
         public void AddMessageprivate(Object obj)
         {
-            //fügt die Nachricht in die entsprechende liste
             //richTextBoxChatWindow.Add(message);
         }
         public void AddMessagepublic(Object obj)
         {
-            //fügt die Nachricht in die entsprechende liste
             //richTextBoxChatWindow.Add(message);
         }
 
         public void Login(Object obj)
         {
-            //prüfung der Daten
+            //Prüfen der Daten
             //richtig
 
             //falsch
-            MessageBox.Show("Passwort stimmt nicht Überein");
+            MessageBox.Show("Passwort stimmen nicht Überein");
         }
 
         public void Logoff(ClientModel client)
@@ -156,7 +208,7 @@ namespace ChatViewModel
         }
         public void CreateRoom()
         {
-            //Chatraum erstellen
+            new Room(Roomname);
         }
     }
 }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-K:\Schule\projekt\chat\WPFView\obj\Debug\
+D:\Kampfmann\Github\WPFView\obj\Debug\
 WPFView
 none
 false
 DEBUG;TRACE
-K:\Schule\projekt\chat\WPFView\App.xaml
+D:\Kampfmann\Github\WPFView\App.xaml
 4-1475495338
 
-12954137945
+12-1299504654
 13-1142990016
 AddChatRoom.xaml;AddServer.xaml;Login.xaml;MainWindow.xaml;
 
-False
+True
 

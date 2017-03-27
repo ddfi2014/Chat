@@ -15,13 +15,13 @@
             <RowDefinition Height="64*"/>
             <RowDefinition Height="35*"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="textBoxUserName" Height="22" Margin="22.42,11,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBox x:Name="textBoxUserName" Height="22" Margin="22.42,11,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1" Text="{Binding ChatViewModel.ClientViewModel.Username}" />
         <Label x:Name="labelUserName" Content="User Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,7,0,0" Height="26" Width="115"/>
         <Button x:Name="buttonLogin" Content="Sign in" Margin="10,0,9.58,10" Grid.Row="1" Height="38" VerticalAlignment="Bottom" Command="{Binding ButtonSignin}"/>
         <Label x:Name="labelPassword" Content="Password:" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Height="26" Width="115"/>
-        <PasswordBox x:Name="passwordBox" Margin="22.42,42,10,0" VerticalAlignment="Top" Height="22" Grid.Column="1"/>
+        <PasswordBox x:Name="passwordBox" Margin="22.42,42,10,0" VerticalAlignment="Top" Height="22" Grid.Column="1" TextSearch.Text="{Binding ChatViewModel.ClientViewModel.Passwort}"/>
         <Label x:Name="labelConfirmPassword" Content="Confirm Password:" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Height="26" Width="115"/>
-        <PasswordBox x:Name="passwordBox1" Margin="22.42,73,10,0" VerticalAlignment="Top" Height="22" Grid.Column="1"/>
+        <PasswordBox x:Name="passwordBox1" Margin="22.42,73,10,0" VerticalAlignment="Top" Height="22" Grid.Column="1" TextSearch.Text="{Binding ChatViewModel.ClientViewModel.Passwortconfirm}"/>
         <Button x:Name="buttonSignUp" Content="Sign Up" Margin="10.42,0,10,10" Grid.Row="1" Height="38" VerticalAlignment="Bottom" Grid.Column="1" Command="{Binding ButtonSignup}"/>
 
     </Grid>
