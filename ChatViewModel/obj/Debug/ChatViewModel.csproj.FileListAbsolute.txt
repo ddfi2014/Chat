@@ -17,3 +17,14 @@ C:\Users\Jonas\Source\Repos\Chat\ChatViewModel\bin\Debug\WPFView.pdb
 C:\Users\Jonas\Source\Repos\Chat\ChatViewModel\obj\Debug\ChatViewModel.csprojResolveAssemblyReference.cache
 C:\Users\Jonas\Source\Repos\Chat\ChatViewModel\obj\Debug\ChatViewModel.dll
 C:\Users\Jonas\Source\Repos\Chat\ChatViewModel\obj\Debug\ChatViewModel.pdb
+D:\Repos\Chat2\ChatViewModel\bin\Debug\ChatViewModel.dll
+D:\Repos\Chat2\ChatViewModel\bin\Debug\ChatViewModel.pdb
+D:\Repos\Chat2\ChatViewModel\bin\Debug\ChatModell.dll
+D:\Repos\Chat2\ChatViewModel\bin\Debug\WPFView.exe
+D:\Repos\Chat2\ChatViewModel\bin\Debug\ChatModell.pdb
+D:\Repos\Chat2\ChatViewModel\bin\Debug\ChatModell.dll.config
+D:\Repos\Chat2\ChatViewModel\bin\Debug\WPFView.pdb
+D:\Repos\Chat2\ChatViewModel\bin\Debug\WPFView.exe.config
+D:\Repos\Chat2\ChatViewModel\obj\Debug\ChatViewModel.csprojResolveAssemblyReference.cache
+D:\Repos\Chat2\ChatViewModel\obj\Debug\ChatViewModel.dll
+D:\Repos\Chat2\ChatViewModel\obj\Debug\ChatViewModel.pdb

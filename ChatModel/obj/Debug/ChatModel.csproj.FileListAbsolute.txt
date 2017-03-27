@@ -22,3 +22,11 @@ C:\Users\Jonas\Source\Repos\Chat\ChatModel\bin\Debug\Projekt_2_Chat.pdb
 C:\Users\Jonas\Source\Repos\Chat\ChatModel\obj\Debug\ChatModel.csprojResolveAssemblyReference.cache
 C:\Users\Jonas\Source\Repos\Chat\ChatModel\obj\Debug\ChatModell.dll
 C:\Users\Jonas\Source\Repos\Chat\ChatModel\obj\Debug\ChatModell.pdb
+D:\Repos\Chat2\ChatModel\bin\Debug\ChatModell.dll.config
+D:\Repos\Chat2\ChatModel\bin\Debug\ChatModell.dll
+D:\Repos\Chat2\ChatModel\bin\Debug\ChatModell.pdb
+D:\Repos\Chat2\ChatModel\bin\Debug\Projekt_2_Chat.dll
+D:\Repos\Chat2\ChatModel\bin\Debug\Projekt_2_Chat.pdb
+D:\Repos\Chat2\ChatModel\obj\Debug\ChatModel.csprojResolveAssemblyReference.cache
+D:\Repos\Chat2\ChatModel\obj\Debug\ChatModell.dll
+D:\Repos\Chat2\ChatModel\obj\Debug\ChatModell.pdb
