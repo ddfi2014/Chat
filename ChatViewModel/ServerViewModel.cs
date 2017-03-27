@@ -11,7 +11,7 @@ namespace ChatViewModel
 {
     public class ServerViewModel : INotifyPropertyChanged
     {
-        public static List<IServerView> views = new List<IServerView>();
+        public static List<ServerViewModel> views = new List<ServerViewModel>();
 
         private static ServerViewModel instance = null;
 
@@ -42,7 +42,7 @@ namespace ChatViewModel
             return instance;
         }
 
-        public void AddView(IServerView view)
+        public void AddView(ServerViewModel view)
         {
             views.Add(view);
         }
