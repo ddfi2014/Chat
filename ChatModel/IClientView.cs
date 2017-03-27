@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChatModell
 {
+    [Obsolete("IClientView is deprecated due to change from MVC to MVVM.")]
     public interface IClientView
     {
 
